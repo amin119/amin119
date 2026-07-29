@@ -1,89 +1,91 @@
-<h1 align="center">Hi, I'm Ahmed Amin Chabbah 👋</h1>
-<h3 align="center">AI/ML Engineer — Agentic AI & Multi-Agent Systems | LLMs · RAG · Computer Vision</h3>
+<div align="center">
 
-<p align="center">
-  Software Engineering student at INSAT, Tunisia 🇹🇳 — shipping production AI across three startups at once.
-</p>
+```
+$ whoami
+```
 
-<p align="center">
-  <a href="https://linkedin.com/in/ahmed-amin-chabbah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:ahmedamin.chabbah@insat.ucar.tn"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
+</div>
 
----
+<h1 align="center">Ahmed Amin Chabbah</h1>
+<p align="center"><i>I don't build agents. I build the systems that keep them honest.</i></p>
 
-### 🚀 What I build
+<div align="center">
 
-I design and ship **multi-agent LLM systems** and the production infrastructure around them — not demos, systems with real users. I own the full path from a messy problem to a deployed system: data, model, API, and infra.
+`INSAT, Tunisia` · `Software Engineering` · `Agentic AI / Multi-Agent Systems`
 
-- **Agentic AI** — multi-agent orchestration, tool use, LLM-powered production features (Claude API, Groq)
-- **ML / CV / NLP** — PyTorch, TensorFlow, BERT, YOLOv8/v11, semantic similarity, embeddings
-- 🛠️ **Backend & infra** — FastAPI, PostgreSQL/PostGIS, Redis, real-time systems (SSE), auth (JWT/RS256)
-- **Currently deepening**: RAG pipelines, embedding-based retrieval, agent evaluation
+</div>
 
----
+<br>
 
-### 🔭 Featured Projects
-
-**[Argus — Multi-Agent AI Code Review Platform](https://github.com/amin119/argus)**
-A multi-tenant, stateless multi-agent platform on the Claude API that automates PR security and quality review — API gateway, agent orchestration layer, S3-backed storage — cutting review turnaround from days to minutes.
-`Claude API` `Multi-Agent Orchestration` `FastAPI` `S3` `GitHub/GitLab API`
-
-**[Sahali — Civic Infrastructure Reporting Platform](https://github.com/amin119/SAHALI)**
-Full-stack civic-reporting platform for Tunisian municipalities, architected end-to-end: FastAPI backend, PostGIS geo-routing, RS256 JWT auth, and a real-time SSE dashboard — live for citizens and municipal staff.
-`FastAPI` `PostgreSQL/PostGIS` `Redis` `React/TypeScript` `Flutter`
-
-**[International Tourism Price Comparison Platform](https://github.com/amin119/TunisiRadar)**
-End-to-end architecture for a multi-country hotel price-comparison platform — Amadeus/RapidAPI ingestion, normalized PostgreSQL + MongoDB pipeline, Redis-based discount alerting.
-`FastAPI` `Next.js` `PostgreSQL` `MongoDB` `XGBoost`
-
-**[Human Innovations — AI-Powered HR Matching](https://github.com/amin119/GL3-PPP)**
-CV-to-job matching engine combining fine-tuned BERT semantic similarity, TF-IDF, and NER — reaching 84.3% matching accuracy, automating recruitment screening end-to-end.
-`BERT` `spaCy` `FastAPI` `React.js`
+```
+[orchestrator] booting session...
+[orchestrator] loading agents: reviewer, planner, retriever, infra
+[orchestrator] status: 3 companies, 1 nervous system
+[orchestrator] ready.
+```
 
 ---
 
-### Tech Stack
+## trace / what actually happens when I work
 
-**AI/ML & Agentic Systems**
-![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+```
+> task received: "build something that doesn't fall over at 2am"
+> routing to: backend-agent, ml-agent, infra-agent
+> backend-agent    -> FastAPI, PostgreSQL/PostGIS, Redis, JWT/RS256
+> ml-agent         -> PyTorch, TensorFlow, BERT, YOLOv8/v11, embeddings
+> infra-agent      -> S3, real-time SSE, multi-tenant orchestration
+> orchestrator     -> merges outputs, ships to production
+> result: a system with real users, not a demo
+```
 
-**Backend & APIs**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Frontend**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-
-**Big Data & Distributed Systems**
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+I spend most of my time in the gap most engineers skip — the part between "the model works in a notebook" and "the system survives contact with real users." That gap is where multi-agent orchestration, retries, state, and cost control actually live. That's my job.
 
 ---
 
-### GitHub Stats
+## artifacts recovered from production
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amin119&show_icons=true&theme=default&hide_border=true" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amin119&layout=compact&hide_border=true" height="165">
-</p>
+**`argus/`** — a multi-tenant, stateless multi-agent platform built on the Claude API that automates PR security and quality review end to end: gateway, orchestration layer, S3-backed storage. Turned a days-long review cycle into minutes.
+→ `github.com/amin119/argus`
+
+**`sahali/`** — civic infrastructure reporting for Tunisian municipalities. FastAPI backend, PostGIS geo-routing, RS256 JWT auth, a real-time SSE dashboard that citizens and municipal staff actually use, live, right now.
+→ `github.com/amin119/SAHALI`
+
+**`tunisiradar/`** — a multi-country tourism price-comparison engine. Amadeus/RapidAPI ingestion normalized across PostgreSQL and MongoDB, Redis-driven discount alerts, XGBoost underneath.
+→ `github.com/amin119/TunisiRadar`
+
+**`gl3-ppp/`** — an HR matching engine that reads a CV the way a tired recruiter wishes they could: fine-tuned BERT semantic similarity, TF-IDF, NER. 84.3% matching accuracy, screening automated end to end.
+→ `github.com/amin119/GL3-PPP`
 
 ---
 
-### Currently
+## dependencies
 
-- 🔭 Building agentic AI product features at **Nadas Group**
-- 🌍 Backend engineering at **Metis Digital**, France
-- 🛡️ President of **SecuriNets INSAT** — National Cybersecurity Association
-- 📚 Deepening RAG, embeddings, and agent-evaluation methodology
-- 💼 **Open to AI/ML & Agentic AI Engineering internships**
+```
+runtime        Python · FastAPI · PostgreSQL · Redis
+intelligence   Claude API · PyTorch · TensorFlow · scikit-learn
+frontend       React · Vue.js · Flutter
+scale          Apache Spark · Kafka · Docker
+currently      RAG pipelines · embedding retrieval · agent evaluation
+```
 
-<p align="center"><i>Reach out — always happy to talk about multi-agent systems, LLM infra, or Tunisia's next civic-tech project.</i></p>
+---
+
+## background process
+
+```
+[nadas-group]     agentic AI product features, ongoing
+[metis-digital]   backend engineering, France
+[securinets]      president, INSAT chapter — national cybersecurity assoc.
+[status]          open to AI/ML & agentic engineering internships
+```
+
+---
+
+<div align="center">
+
+*If you're building something that needs more than one agent to think straight —
+that's a conversation I want to have.*
+
+`ahmedamin.chabbah@insat.ucar.tn` · `linkedin.com/in/ahmed-amin-chabbah`
+
+</div>
