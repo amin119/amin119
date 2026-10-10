@@ -1,86 +1,167 @@
-<div align="center">
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0891B2&height=200&section=header&text=Ahmed%20Amin%20Chabbah&fontSize=46&fontColor=E2E8F0&fontAlignY=36&desc=AI%2FML%20Engineer%20%C2%B7%20Agentic%20AI%20%C2%B7%20Software%20Engineering&descSize=16&descAlignY=58&descColor=A5F3FC&animation=fadeIn" width="100%" alt="header"/>
+</p>
 
-# Ahmed Amin Chabbah
+<p align="center">
+  <a href="https://github.com/amin119">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=620&lines=Turning+promising+models+into+real+software;Agentic+AI+%C2%B7+RAG+%2F+GraphRAG+%C2%B7+Computer+Vision;AI%2FML+Engineer+%40+Nadas+Group;Final-year+Software+Engineering+%40+INSAT" alt="typing"/>
+  </a>
+</p>
 
-### AI/ML Engineer · Agentic AI · Computer Vision · Software Engineering
+<p align="center">
+  <a href="https://www.linkedin.com/in/ahmed-amin-chabbah/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:ahmedamin.chabbah@insat.ucar.tn"><img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email"/></a>
+  <img src="https://img.shields.io/badge/Open%20to-6--month%20internship%20·%20Jan%202027-0891B2?style=for-the-badge" alt="Open to internship"/>
+</p>
 
-I build AI-powered systems that move beyond a promising model into useful, reliable software.
+<br/>
 
-[LinkedIn](https://www.linkedin.com/in/ahmed-amin-chabbah/) · [Email](mailto:ahmedamin.chabbah@insat.ucar.tn) · [GitHub](https://github.com/amin119)
+<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+## ◆ About me
 
-</div>
+```python
+class AhmedAmin:
+    role       = "AI/ML Engineer @ Nadas Group"
+    studying   = "Software Engineering @ INSAT (final year)"
+    focus      = ["Agentic AI", "RAG / GraphRAG", "Retrieval quality", "Computer Vision"]
+    believes   = "Useful AI = good retrieval + honest evaluation + solid engineering"
+    looking_for = "6-month final-year internship, from mid-January 2027"
+```
 
----
+I enjoy the whole journey: understanding the problem, preparing the data, testing models, finding where they break, and shipping the best approach as software people can actually use.
 
-## About me
+<br/>
 
-I'm a final-year Software Engineering student at **INSAT** and an AI/ML Engineer with hands-on experience across applied machine learning, computer vision, agentic AI, and backend engineering.
+<!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+## ◆ Selected projects
 
-I enjoy the full journey: understanding a problem, preparing the data, experimenting with models, evaluating their limitations, and integrating the strongest approach into software people can actually use. Recently, I've been especially interested in **agentic systems, RAG/GraphRAG, retrieval quality, and reliable AI applications**.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/amin119/CompliaHub">CompliaTato</a></h3>
+      <sub><b>Agentic GraphRAG compliance platform</b></sub>
+      <p>Knowledge graph + vector search + AI agents to check code against GDPR, ISO 27001 and ISO 42001, with evidence retrieval and human review.</p>
+      <img src="https://img.shields.io/badge/GraphRAG-0F172A?style=flat-square"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>👁️ <a href="https://github.com/amin119/argus">Argus</a></h3>
+      <sub><b>Multi-agent code review</b></sub>
+      <p>Specialized AI agents coordinated by a backend service to review pull requests for security and quality issues.</p>
+      <img src="https://img.shields.io/badge/Multi--agent-0F172A?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub%20%2F%20GitLab-181717?style=flat-square&logo=github&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏙️ <a href="https://github.com/amin119/SAHALI">Sahali</a></h3>
+      <sub><b>Civic reporting platform</b></sub>
+      <p>Citizens report municipal issues; geospatial routing and real-time updates send each report to the right team.</p>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>✈️ <a href="https://github.com/amin119/TunisiRadar">TunisiRadar</a></h3>
+      <sub><b>Travel price comparison</b></sub>
+      <p>Aggregates data from travel providers into pipelines that power pricing insights and price alerts.</p>
+      <img src="https://img.shields.io/badge/Data%20pipelines-0F172A?style=flat-square"/>
+      <img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square"/>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>📄 <a href="https://github.com/amin119/GL3-PPP">CV Matching Engine</a></h3>
+      <sub><b>Recruitment support with NLP</b></sub>
+      <p>Compares CVs with job requirements by combining semantic similarity (BERT) with classic text processing (TF-IDF, NER).</p>
+      <img src="https://img.shields.io/badge/BERT-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+      <img src="https://img.shields.io/badge/TF--IDF-0F172A?style=flat-square"/>
+      <img src="https://img.shields.io/badge/NER-0F172A?style=flat-square"/>
+    </td>
+  </tr>
+</table>
 
-My experience spans AI/ML engineering at Nadas Group, software engineering at Metis Digital, and AI engineering at Yonnov'IA, alongside earlier work in computer vision and data analysis.
+<br/>
 
-Outside the code, I was elected **President of Securinets INSAT in 2024**. Organizing teams and technical events taught me to take ownership, communicate clearly, and help people move toward a shared goal.
+<!-- ═══════════════════════════ EXPERIENCE ═══════════════════════════ -->
+## ◆ Experience
 
-I'm currently looking for a **six-month final-year internship starting in mid-January 2027** in AI/ML engineering, applied AI, computer vision, agentic AI, or software engineering.
+| | Company | Role |
+|:-:|---|---|
+| 🟢 | **Nadas Group** | AI/ML Engineer · *since April 2026* |
+| ◽ | **Metis Digital** | Software Engineering |
+| ◽ | **Yonnov'IA** | AI Engineering |
+| ◽ | **WiseVision AI Technologies** | Computer Vision |
+| ◽ | **SAGEMCOM** | Data Analysis |
 
----
+<br/>
 
-## Selected projects
+<!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
+## ◆ Tech stack
 
-### [CompliaTato — Agentic GraphRAG Compliance Platform](https://github.com/amin119/CompliaHub)
-An AI-assisted compliance platform combining a knowledge graph, vector search, and agentic workflows to help analyze code against requirements such as GDPR, ISO 27001, and ISO 42001. Built with a focus on evidence retrieval, answer quality, and human review.
+<p align="center"><sub><b>AI · ML · DATA</b></sub><br/><br/>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn&theme=dark" alt="ai"/>
+  <br/>
+  <img src="https://img.shields.io/badge/RAG%20%2F%20GraphRAG-0F172A?style=flat-square"/>
+  <img src="https://img.shields.io/badge/AI%20Agents-0F172A?style=flat-square"/>
+  <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logoColor=black"/>
+  <img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square"/>
+  <img src="https://img.shields.io/badge/OCR-0F172A?style=flat-square"/>
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+</p>
 
-**Focus:** GraphRAG · RAG evaluation · AI agents · FastAPI · PostgreSQL · Neo4j · Qdrant
+<p align="center"><sub><b>BACKEND · DATABASES · INFRA</b></sub><br/><br/>
+  <img src="https://skillicons.dev/icons?i=fastapi,django,nodejs,express,postgres,mongodb,redis,docker&theme=dark" alt="backend"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square"/>
+</p>
 
-### [Argus — Multi-Agent Code Review](https://github.com/amin119/argus)
-A multi-agent platform designed to support pull-request security and quality reviews, coordinating specialized AI workflows through a backend service.
+<p align="center"><sub><b>FRONTEND · TOOLS</b></sub><br/><br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,flutter,git,github,linux&theme=dark" alt="frontend"/>
+</p>
 
-**Focus:** Agent orchestration · Claude API · FastAPI · GitHub/GitLab integrations
+<br/>
 
-### [Sahali — Civic Reporting Platform](https://github.com/amin119/SAHALI)
-A civic reporting system for municipal issues, with geospatial routing and real-time updates to help connect reports with the relevant teams.
+<!-- ═══════════════════════════ STATS ═══════════════════════════ -->
+## ◆ GitHub activity
 
-**Focus:** FastAPI · PostgreSQL/PostGIS · Redis · React · Real-time updates
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=amin119&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=CBD5E1&rank_icon=github" alt="stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amin119&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=CBD5E1" alt="languages"/>
+</p>
 
-### [TunisiRadar — Travel Price Comparison](https://github.com/amin119/TunisiRadar)
-A travel comparison project that brings together travel data from external providers and supports data-driven pricing insights and alerts.
+<p align="center">
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=amin119&bg_color=0D1117&color=CBD5E1&line=22D3EE&point=E2E8F0&area=true&area_color=0891B2&hide_border=true" alt="activity graph"/>
+</p>
 
-**Focus:** API integration · Data pipelines · PostgreSQL · MongoDB · Redis · XGBoost
+<br/>
 
-### [CV Matching Engine](https://github.com/amin119/GL3-PPP)
-A recruitment-support project combining semantic similarity and traditional text-processing methods to compare CVs with job requirements.
+<!-- ═══════════════════════════ BEYOND ═══════════════════════════ -->
+## ◆ Beyond the code
 
-**Focus:** BERT · TF-IDF · Named Entity Recognition · NLP
+🏆 Elected **President of Securinets INSAT** (2024), a student cybersecurity association
+🎤 Contributed to the **Artificial Intelligence National Summit** and **CyberSphere Congress** (leadership, media, graphic design)
+🌱 I value curiosity, learning by building, and solving real problems with other people
 
----
+<br/>
 
-## Technical toolkit
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<p align="center">
+  <b>Have a practical AI problem or a project worth building? Let's talk.</b><br/><br/>
+  <a href="https://www.linkedin.com/in/ahmed-amin-chabbah/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:ahmedamin.chabbah@insat.ucar.tn"><img src="https://img.shields.io/badge/Send%20an%20email-0F172A?style=for-the-badge&logo=gmail&logoColor=22D3EE"/></a>
+</p>
 
-| Area | Tools and technologies |
-|---|---|
-| **AI / ML** | PyTorch, TensorFlow, scikit-learn, XGBoost, Pandas, NumPy |
-| **LLMs / retrieval** | Agentic workflows, RAG, GraphRAG, embeddings, vector search, prompt design, evaluation |
-| **Computer vision** | Object detection, image classification, OCR, YOLO, EfficientNet |
-| **Backend / APIs** | Python, FastAPI, Django, Node.js, Express |
-| **Data / infrastructure** | PostgreSQL, MongoDB, Redis, Neo4j, Qdrant, Docker, n8n |
-| **Frontend** | React, Next.js, Vue.js, Angular, Flutter |
-| **Engineering** | Git/GitHub, API integration, testing, debugging, deployment, technical documentation |
-
----
-
-## Beyond engineering
-
-In 2024, I was elected **President of Securinets INSAT**, a student association focused on cybersecurity. I've also contributed to technical and international events through leadership, media, and graphic design roles, including the Artificial Intelligence National Summit and CyberSphere Congress.
-
-I value curiosity, practical learning, collaboration, and building things that solve real problems.
-
----
-
-<div align="center">
-
-**Have a practical AI problem or a project worth building? I'd be happy to connect.**
-
-[LinkedIn](https://www.linkedin.com/in/ahmed-amin-chabbah/) · [Email](mailto:ahmedamin.chabbah@insat.ucar.tn)
-
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,100:0F172A&height=110&section=footer" width="100%" alt="footer"/>
+</p>
