@@ -1,91 +1,86 @@
 <div align="center">
 
-```
-$ whoami
-```
+# Ahmed Amin Chabbah
+
+### AI/ML Engineer · Agentic AI · Computer Vision · Software Engineering
+
+I build AI-powered systems that move beyond a promising model into useful, reliable software.
+
+[LinkedIn](https://www.linkedin.com/in/ahmed-amin-chabbah/) · [Email](mailto:ahmedamin.chabbah@insat.ucar.tn) · [GitHub](https://github.com/amin119)
 
 </div>
 
-<h1 align="center">Ahmed Amin Chabbah</h1>
-<p align="center"><i>I don't build agents. I build the systems that keep them honest.</i></p>
+---
 
-<div align="center">
+## About me
 
-`INSAT, Tunisia` · `Software Engineering` · `Agentic AI / Multi-Agent Systems`
+I'm a final-year Software Engineering student at **INSAT** and an AI/ML Engineer with hands-on experience across applied machine learning, computer vision, agentic AI, and backend engineering.
 
-</div>
+I enjoy the full journey: understanding a problem, preparing the data, experimenting with models, evaluating their limitations, and integrating the strongest approach into software people can actually use. Recently, I've been especially interested in **agentic systems, RAG/GraphRAG, retrieval quality, and reliable AI applications**.
 
-<br>
+My experience spans AI/ML engineering at Nadas Group, software engineering at Metis Digital, and AI engineering at Yonnov'IA, alongside earlier work in computer vision and data analysis.
 
-```
-[orchestrator] booting session...
-[orchestrator] loading agents: reviewer, planner, retriever, infra
-[orchestrator] status: 3 companies, 1 nervous system
-[orchestrator] ready.
-```
+Outside the code, I was elected **President of Securinets INSAT in 2024**. Organizing teams and technical events taught me to take ownership, communicate clearly, and help people move toward a shared goal.
+
+I'm currently looking for a **six-month final-year internship starting in mid-January 2027** in AI/ML engineering, applied AI, computer vision, agentic AI, or software engineering.
 
 ---
 
-## trace / what actually happens when I work
+## Selected projects
 
-```
-> task received: "build something that doesn't fall over at 2am"
-> routing to: backend-agent, ml-agent, infra-agent
-> backend-agent    -> FastAPI, PostgreSQL/PostGIS, Redis, JWT/RS256
-> ml-agent         -> PyTorch, TensorFlow, BERT, YOLOv8/v11, embeddings
-> infra-agent      -> S3, real-time SSE, multi-tenant orchestration
-> orchestrator     -> merges outputs, ships to production
-> result: a system with real users, not a demo
-```
+### [CompliaTato — Agentic GraphRAG Compliance Platform](https://github.com/amin119/CompliaHub)
+An AI-assisted compliance platform combining a knowledge graph, vector search, and agentic workflows to help analyze code against requirements such as GDPR, ISO 27001, and ISO 42001. Built with a focus on evidence retrieval, answer quality, and human review.
 
-I spend most of my time in the gap most engineers skip — the part between "the model works in a notebook" and "the system survives contact with real users." That gap is where multi-agent orchestration, retries, state, and cost control actually live. That's my job.
+**Focus:** GraphRAG · RAG evaluation · AI agents · FastAPI · PostgreSQL · Neo4j · Qdrant
 
----
+### [Argus — Multi-Agent Code Review](https://github.com/amin119/argus)
+A multi-agent platform designed to support pull-request security and quality reviews, coordinating specialized AI workflows through a backend service.
 
-## artifacts recovered from production
+**Focus:** Agent orchestration · Claude API · FastAPI · GitHub/GitLab integrations
 
-**`argus/`** — a multi-tenant, stateless multi-agent platform built on the Claude API that automates PR security and quality review end to end: gateway, orchestration layer, S3-backed storage. Turned a days-long review cycle into minutes.
-→ `github.com/amin119/argus`
+### [Sahali — Civic Reporting Platform](https://github.com/amin119/SAHALI)
+A civic reporting system for municipal issues, with geospatial routing and real-time updates to help connect reports with the relevant teams.
 
-**`sahali/`** — civic infrastructure reporting for Tunisian municipalities. FastAPI backend, PostGIS geo-routing, RS256 JWT auth, a real-time SSE dashboard that citizens and municipal staff actually use, live, right now.
-→ `github.com/amin119/SAHALI`
+**Focus:** FastAPI · PostgreSQL/PostGIS · Redis · React · Real-time updates
 
-**`tunisiradar/`** — a multi-country tourism price-comparison engine. Amadeus/RapidAPI ingestion normalized across PostgreSQL and MongoDB, Redis-driven discount alerts, XGBoost underneath.
-→ `github.com/amin119/TunisiRadar`
+### [TunisiRadar — Travel Price Comparison](https://github.com/amin119/TunisiRadar)
+A travel comparison project that brings together travel data from external providers and supports data-driven pricing insights and alerts.
 
-**`gl3-ppp/`** — an HR matching engine that reads a CV the way a tired recruiter wishes they could: fine-tuned BERT semantic similarity, TF-IDF, NER. 84.3% matching accuracy, screening automated end to end.
-→ `github.com/amin119/GL3-PPP`
+**Focus:** API integration · Data pipelines · PostgreSQL · MongoDB · Redis · XGBoost
+
+### [CV Matching Engine](https://github.com/amin119/GL3-PPP)
+A recruitment-support project combining semantic similarity and traditional text-processing methods to compare CVs with job requirements.
+
+**Focus:** BERT · TF-IDF · Named Entity Recognition · NLP
 
 ---
 
-## dependencies
+## Technical toolkit
 
-```
-runtime        Python · FastAPI · PostgreSQL · Redis
-intelligence   Claude API · PyTorch · TensorFlow · scikit-learn
-frontend       React · Vue.js · Flutter
-scale          Apache Spark · Kafka · Docker
-currently      RAG pipelines · embedding retrieval · agent evaluation
-```
+| Area | Tools and technologies |
+|---|---|
+| **AI / ML** | PyTorch, TensorFlow, scikit-learn, XGBoost, Pandas, NumPy |
+| **LLMs / retrieval** | Agentic workflows, RAG, GraphRAG, embeddings, vector search, prompt design, evaluation |
+| **Computer vision** | Object detection, image classification, OCR, YOLO, EfficientNet |
+| **Backend / APIs** | Python, FastAPI, Django, Node.js, Express |
+| **Data / infrastructure** | PostgreSQL, MongoDB, Redis, Neo4j, Qdrant, Docker, n8n |
+| **Frontend** | React, Next.js, Vue.js, Angular, Flutter |
+| **Engineering** | Git/GitHub, API integration, testing, debugging, deployment, technical documentation |
 
 ---
 
-## background process
+## Beyond engineering
 
-```
-[nadas-group]     agentic AI product features, ongoing
-[metis-digital]   backend engineering, France
-[securinets]      president, INSAT chapter — national cybersecurity assoc.
-[status]          open to AI/ML & agentic engineering internships
-```
+In 2024, I was elected **President of Securinets INSAT**, a student association focused on cybersecurity. I've also contributed to technical and international events through leadership, media, and graphic design roles, including the Artificial Intelligence National Summit and CyberSphere Congress.
+
+I value curiosity, practical learning, collaboration, and building things that solve real problems.
 
 ---
 
 <div align="center">
 
-*If you're building something that needs more than one agent to think straight —
-that's a conversation I want to have.*
+**Have a practical AI problem or a project worth building? I'd be happy to connect.**
 
-`ahmedamin.chabbah@insat.ucar.tn` · `linkedin.com/in/ahmed-amin-chabbah`
+[LinkedIn](https://www.linkedin.com/in/ahmed-amin-chabbah/) · [Email](mailto:ahmedamin.chabbah@insat.ucar.tn)
 
 </div>
