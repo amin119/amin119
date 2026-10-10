@@ -132,17 +132,6 @@ I enjoy the whole journey: understanding the problem, preparing the data, testin
 
 <br/>
 
-<!-- ═══════════════════════════ STATS ═══════════════════════════ -->
-## ◆ GitHub activity
-
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="96%" alt="profile details"/>
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="stats"/>
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="languages"/>
-</p>
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 <p align="center">
