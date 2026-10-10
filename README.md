@@ -136,14 +136,13 @@ I enjoy the whole journey: understanding the problem, preparing the data, testin
 ## ◆ GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=amin119&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=CBD5E1&rank_icon=github" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amin119&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=CBD5E1" alt="languages"/>
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="96%" alt="profile details"/>
 </p>
 
 <p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=amin119&bg_color=0D1117&color=CBD5E1&line=22D3EE&point=E2E8F0&area=true&area_color=0891B2&hide_border=true" alt="activity graph"/>
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="stats"/>
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="languages"/>
 </p>
-
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 <p align="center">
