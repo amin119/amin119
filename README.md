@@ -144,16 +144,6 @@ I enjoy the whole journey: understanding the problem, preparing the data, testin
   <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=amin119&bg_color=0D1117&color=CBD5E1&line=22D3EE&point=E2E8F0&area=true&area_color=0891B2&hide_border=true" alt="activity graph"/>
 </p>
 
-<br/>
-
-<!-- ═══════════════════════════ BEYOND ═══════════════════════════ -->
-## ◆ Beyond the code
-
-🏆 Elected **President of Securinets INSAT** (2024), a student cybersecurity association
-🎤 Contributed to the **Artificial Intelligence National Summit** and **CyberSphere Congress** (leadership, media, graphic design)
-🌱 I value curiosity, learning by building, and solving real problems with other people
-
-<br/>
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 <p align="center">
